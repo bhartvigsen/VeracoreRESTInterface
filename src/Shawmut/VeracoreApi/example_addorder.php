@@ -8,7 +8,7 @@ require_once('VeracoreOrder.php');
 $wsdl = 'https://orders.shawmutprinting.com/pmomsws/order.asmx?wsdl';
 
 $username = 'cambridge';
-$password = 'cot!32';
+$password = 'xxx';
 
 $veracore = new Soap($wsdl, $username, $password);
 
